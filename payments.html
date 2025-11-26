@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>WildPhones - Payments</title>
+    <title>Payments - WildPhones Garage</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
 </head>
 <body onload="loadOrderSummary()">
 
-<header>
-    <h1>Checkout</h1>
-</header>
+<header><h1>Checkout</h1></header>
 
 <nav>
     <a href="index.html">Home</a>
@@ -20,12 +17,11 @@
 </nav>
 
 <div class="form-container">
-
     <h2>Enter Your Details</h2>
 
     <form onsubmit="submitOrder(event)">
         <label>Full Name</label>
-        <input type="text" required>
+        <input required>
 
         <label>Phone Number</label>
         <input type="text" required>
@@ -34,14 +30,13 @@
         <input type="email" required>
 
         <label>Address</label>
-        <textarea rows="3" required></textarea>
+        <textarea required></textarea>
 
-        <h3>Payment Method</h3>
+        <label>Payment Method</label>
         <select required>
             <option>UPI</option>
-            <option>Credit Card</option>
-            <option>Debit Card</option>
             <option>Cash on Delivery</option>
+            <option>Credit Card</option>
         </select>
 
         <div class="order-summary">
@@ -50,14 +45,11 @@
             <p><b>Price:</b> <span id="summary-price"></span></p>
         </div>
 
-        <button type="submit" class="btn" style="margin-top:20px;">Confirm Order</button>
-
+        <button class="btn" type="submit">Confirm Order</button>
     </form>
 </div>
 
-<footer>
-    © 2025 WildPhones Garage — Retro Devices Reborn
-</footer>
+<footer>© 2025 WildPhones Garage</footer>
 
 </body>
 </html>
