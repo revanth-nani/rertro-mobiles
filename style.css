@@ -1,0 +1,172 @@
+/* ============================
+   WildPhones Garage - Vintage Theme
+   ============================ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #2b2a27;
+    color: #f3e7d0;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+}
+
+header {
+    background-color: #3c3b38;
+    padding: 20px;
+    border-bottom: 3px solid #9b7b4f;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #e5d3a3;
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px #000;
+}
+
+nav {
+    text-align: center;
+    background-color: #4a463f;
+    padding: 12px 0;
+    border-bottom: 2px solid #9b7b4f;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #e5d3a3;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffde8d;
+}
+
+/* Hero Section */
+.hero {
+    padding: 120px 20px;
+    text-align: center;
+    background-image: url('https://i.imgur.com/0qvWjkd.jpeg'); /* Retro Mobile Table Photo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.hero h2 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #9b7b4f;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d7a35f;
+}
+
+/* Products Grid */
+.products-container {
+    padding: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.product {
+    background-color: #403e39;
+    padding: 20px;
+    border: 2px solid #9b7b4f;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 22px;
+}
+
+.product p {
+    margin-top: -5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #3c3b38;
+    border-top: 2px solid #9b7b4f;
+}
+
+/* Payment Form */
+.form-container {
+    padding: 40px;
+    max-width: 700px;
+    margin: auto;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #55524c;
+    color: #fff3d6;
+    font-size: 16px;
+    border: 2px solid #9b7b4f;
+    border-radius: 5px;
+}
+
+.order-summary {
+    margin-top: 25px;
+    background-color: #4f4c45;
+    padding: 20px;
+    border: 2px solid #9b7b4f;
+}
+
+/* Thank You Page */
+.thankyou-box {
+    margin: auto;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.thankyou-box h2 {
+    font-size: 40px;
+    color: #f7ddae;
+}
+
+.order-id {
+    font-size: 22px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4f4c45;
+    border: 2px solid #9b7b4f;
+    display: inline-block;
+}
